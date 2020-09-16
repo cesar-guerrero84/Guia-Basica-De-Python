@@ -18,6 +18,31 @@ print(myStr.startswith("soy")) #este metodo muestra si la variable empieza con c
 
 print(myStr.endswith("string")) #este metodo te muestra si la variable termina con cierta palabra o caracter mostrandote si es falso o verdadero
 
+print(myStr.split()) #es un metodo que separa la variable a partir del caracter puesto dentro de las () si lo dejas vacio separara a partir de los espacios en este caso separando soy , un , strting en la consola en una lista
+
+print(myStr.find("y")) #este metodo busca en que posicion esta el caracter ubicado dentro de las () en este caso imprime el numero 2 debido que la y de soy esta en el segundo espacio contando desde la s como 0
+
+print(myStr.index("y")) #este metodo te muestra en que posicion esta el caracter indicado muy parecido a .find
+
+print(myStr.isnumeric()) #este metodo te muestra si un dato es numerico con false o true
+
+print(myStr.isalpha()) #este metodo te muestra si un dato es alfanumerico
+
+
+
 #puedes tener metodos dentro de metodos llamados metodos encadenados por ejemplo
 
 print(myStr.replace("string","remplazo").upper()) #aqui primero remplazamos una palabra y luego convertimos todo a mayuscula
+
+print(len(myStr)) #esto es una funcion que imprime la cantidad de caracteres que tiene un dato
+
+#puedes elegir un caracter de un string a travez de [aqui pones una posicion] por ejemplo
+
+print(myStr[2]) #imprime la letra y que es la que esta en la posicion 2
+print(myStr[-1]) #con el - te devuelves en los caracteres por ejemplo aqui -1 seria la letra g del string
+
+#concatenacion esto ya lo vimos pero veamos otro ejemplo con una variable y un string nuevo
+
+print("hola " + myStr) #esto imprimira en la consola hola soy un string gracias a la concatenacion
+
+print(f"hola {myStr}") #esto es otra forma de concatenar la f indica que dentro de un string va ir una variable dentro de {}
