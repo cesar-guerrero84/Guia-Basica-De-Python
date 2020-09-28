@@ -30,7 +30,7 @@ print(type(a)) # imprime en la consola que es un valor de tipo tupla
 
 # una forma muy comun de usar las tuplas es junto con otras formas de contener valores por ejemplo en un diccionario
 
-locaciones {
+locaciones = {
     (14.24242, 45.2455) : "tokyo",  # mira como las locaciones que nunca cambian van dentro de una tupla dentro del diccionario
     (52.4545, 58.64685) : "new york"
 }
